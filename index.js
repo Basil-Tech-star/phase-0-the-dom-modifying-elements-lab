@@ -1,1 +1,10 @@
-// Write your code here!
+document.getElementById('main').remove();
+const newHeader = document.createElement('h1');
+newHeader.textContent = "Welcome!";
+document.body.appendChild(newHeader);
+newHeader.id =  "victory";
+newHeader.textContent = "Welcome!";
+document.body.appendChild(newHeader);
+const yourName = "Basil";
+newHeader.textContent = `${yourName} is the champion`;
+document.body.appendChild(newHeader);
